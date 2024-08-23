@@ -12,27 +12,5 @@ return {
       vim.cmd.hi 'Comment gui=none'
     end,
   },
-
-  {
-    'norcalli/nvim-colorizer.lua',
-    config = function()
-      require('colorizer').setup {
-        'css',
-        'scss',
-        'html',
-        'javascript',
-      }
-    end,
-  },
-
-  {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' },
-    config = function()
-      require('lualine').setup {
-        icons_enabled = vim.g.have_nerd_font,
-        theme = 'gruvbox',
-      }
-    end,
-  },
 }
+-- vim: ts=2 sts=2 sw=2 et
