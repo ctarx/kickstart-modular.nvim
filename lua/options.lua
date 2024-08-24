@@ -13,7 +13,10 @@ vim.opt.number = true
 vim.opt.mouse = 'a'
 
 -- Enable 24-bit RGB color in the terminal
-vim.o.termguicolors = true
+vim.opt.termguicolors = true
+
+-- Set the terminal's title to the current file name
+vim.opt.title = true
 
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
