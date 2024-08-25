@@ -49,9 +49,9 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 vim.keymap.set('v', '<A-j>', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', '<A-k>', ":m '<-2<CR>gv=gv")
 
--- Navigate buffers
-vim.keymap.set('n', '<S-l>', ':BufferLineCycleNext<CR>')
-vim.keymap.set('n', '<S-h>', ':BufferLineCyclePrev<CR>')
+-- Navigate buffers using mini.tabline
+vim.keymap.set('n', '<S-l>', ':bnext<CR>')
+vim.keymap.set('n', '<S-h>', ':bprevious<CR>')
 vim.keymap.set('n', '<leader>q', ':bdelete<CR>')
 
 -- vim: ts=2 sts=2 sw=2 et

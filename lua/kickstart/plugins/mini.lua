@@ -35,6 +35,14 @@ return {
       -- Fast and flexible start screen
       require('mini.starter').setup()
 
+      -- Minimal and fast tabline showing listed buffers
+      local tabline = require 'mini.tabline'
+      tabline.setup {
+        format = function(buf_id, label)
+          local suffix = vim.bo[buf_id].modified and '+ ' or ''
+          return tabline.default_format(buf_id, label) .. suffix
+        end,
+      }
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
