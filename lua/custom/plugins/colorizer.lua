@@ -8,7 +8,7 @@ return {
       require('colorizer').setup {
         'css',
         'scss',
-        'html',
+        -- 'html',
         'javascript',
       }
     end,
