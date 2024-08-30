@@ -211,6 +211,10 @@ return {
         'stylua', -- Used to format Lua code
         'prettier', -- Used to format JavaScript
         'markdownlint',
+        'tailwindcss-language-server',
+        'typescript-language-server',
+        'css-lsp',
+        'shellcheck',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
