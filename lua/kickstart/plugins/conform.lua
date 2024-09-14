@@ -41,6 +41,7 @@ return {
         html = { 'prettier' },
         css = { 'prettier' },
         scss = { 'prettier' },
+        markdown = { 'prettier' },
       },
     },
   },
