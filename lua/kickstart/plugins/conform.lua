@@ -38,7 +38,10 @@ return {
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         javascript = { 'prettierd', 'prettier', stop_after_first = true },
+        typescript = { 'prettier' },
         html = { 'prettier' },
+        json = { 'prettier' },
+        yaml = { 'prettier' },
         css = { 'prettier' },
         scss = { 'prettier' },
         markdown = { 'prettier' },

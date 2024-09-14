@@ -193,6 +193,9 @@ return {
             },
           },
         },
+        emmet_language_server = {
+          filetypes = { 'html', 'njk', 'javascript', 'typescript', 'css', 'sass', 'scss' },
+        },
       }
 
       -- Ensure the servers and tools above are installed
@@ -214,6 +217,7 @@ return {
         'typescript-language-server',
         'css-lsp',
         'shellcheck',
+        'emmet-language-server',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
