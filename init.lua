@@ -7,12 +7,6 @@ vim.g.maplocalleader = ' '
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
--- Treat .njk and .webc files as html
-vim.api.nvim_create_autocmd({ 'BufRead', 'BufNewFile' }, {
-  pattern = { '*.njk', '*.webc' },
-  command = 'set filetype=html',
-})
-
 -- [[ Setting options ]]
 require 'options'
 

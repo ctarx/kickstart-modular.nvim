@@ -194,7 +194,7 @@ return {
           },
         },
         emmet_language_server = {
-          filetypes = { 'html', 'njk', 'javascript', 'typescript', 'css', 'sass', 'scss' },
+          filetypes = { 'html', 'javascript', 'typescript', 'css', 'sass', 'scss' },
         },
       }
 
