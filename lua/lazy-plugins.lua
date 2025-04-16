@@ -28,14 +28,7 @@ require('lazy').setup({
   require 'kickstart/plugins/which-key',
 
   require 'kickstart/plugins/telescope',
-      start = '🚀',
-      task = '📌',
-      lazy = '💤 ',
-    },
-  },
-})
 
--- vim: ts=2 sts=2 sw=2 et
   require 'kickstart/plugins/lspconfig',
 
   require 'kickstart/plugins/conform',
