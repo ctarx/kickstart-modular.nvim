@@ -67,6 +67,11 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+vim.opt.guicursor = {
+  'n:block-blinkon500-blinkoff500',
+  'i-ci:ver25',
+}
+
 -- Indentation settings
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
